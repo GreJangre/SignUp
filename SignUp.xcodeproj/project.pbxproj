@@ -12,6 +12,9 @@
 		27457743223D18EE0019EF6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27457741223D18EE0019EF6A /* Main.storyboard */; };
 		27457745223D18F00019EF6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27457744223D18F00019EF6A /* Assets.xcassets */; };
 		27457748223D18F00019EF6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27457746223D18F00019EF6A /* LaunchScreen.storyboard */; };
+		278770BF2250C45800B81811 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278770BE2250C45800B81811 /* UserInformation.swift */; };
+		27D7948E224FA8B000CECA2E /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D7948D224FA8B000CECA2E /* ModalViewController.swift */; };
+		27D79490224FD4E100CECA2E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D7948F224FD4E100CECA2E /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		27457744223D18F00019EF6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27457747223D18F00019EF6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27457749223D18F00019EF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278770BE2250C45800B81811 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
+		27D7948D224FA8B000CECA2E /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		27D7948F224FD4E100CECA2E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				2745773D223D18EE0019EF6A /* AppDelegate.swift */,
 				2745773F223D18EE0019EF6A /* ViewController.swift */,
+				27D7948D224FA8B000CECA2E /* ModalViewController.swift */,
+				27D7948F224FD4E100CECA2E /* SignUpViewController.swift */,
 				27457741223D18EE0019EF6A /* Main.storyboard */,
 				27457744223D18F00019EF6A /* Assets.xcassets */,
 				27457746223D18F00019EF6A /* LaunchScreen.storyboard */,
 				27457749223D18F00019EF6A /* Info.plist */,
+				278770BE2250C45800B81811 /* UserInformation.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					27457739223D18EE0019EF6A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -135,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278770BF2250C45800B81811 /* UserInformation.swift in Sources */,
 				27457740223D18EE0019EF6A /* ViewController.swift in Sources */,
+				27D7948E224FA8B000CECA2E /* ModalViewController.swift in Sources */,
+				27D79490224FD4E100CECA2E /* SignUpViewController.swift in Sources */,
 				2745773E223D18EE0019EF6A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.grejangre.SignUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,7 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.grejangre.SignUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
